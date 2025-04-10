@@ -6,7 +6,7 @@ This application implements the **QuickSelect** algorithm in Java but improves o
 
 The program enables users to input multiple sets of arrays with each set containing a distinct number of elements. Users also have the option to run a series of queries with the end goal of finding the **k-th** smallest element in the array.
 
-Despite the fact the QuickSelect mechanism is solely used for determining the **k-th** smallest integer, it does it without a full array sorting requirement. In an effort to optimize performance and confirm linear worst-case time complexity, the pivot is selected using the **"Median of Medians"** algorithm.
+Despite the fact the QuickSelect mechanism is solely used for determining the **k-th** smallest integer, it does it without a full array sorting requirement. In an effort to optimize performance and confirm **linear worst-case time complexity**, the pivot is selected using the **"Median of Medians"** algorithm.
 
 Should `k` be outside the perimeters of the array, the program will default to print **"out of range"**. However, if it's within bounds, it will successfully output the **k-th** smallest element in the array.
 
